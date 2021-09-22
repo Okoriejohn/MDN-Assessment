@@ -1,0 +1,146 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex e69de29..df22c8a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,110 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m  <meta charset="UTF-8">[m
+[32m+[m[32m  <meta http-equiv="X-UA-Compatible" content="IE=edge">[m
+[32m+[m[32m  <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m  <meta name="author" content="Okorie Amaechi John">[m
+[32m+[m[32m  <link rel="stylesheet" href="style.css">[m
+[32m+[m[32m  <title>Letter Markup</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m  <address class="sender-column">[m
+[32m+[m[32m    <p>[m
+[32m+[m[32m      <strong>Dr. Eleanor Gaye</strong> <br>[m
+[32m+[m[32m      Awesome Science faculty <br>[m
+[32m+[m[32m      University of Awesome <br>[m
+[32m+[m[32m      Bobtown, CA 99999, <br>[m
+[32m+[m[32m      USA <br>[m
+[32m+[m[32m      <strong>Tel:</strong> <a href="tel:123-456-7890">123-456-7890</a> <br>[m
+[32m+[m[32m      <strong>Email:</strong> <a href="mailto:no_reply@example.com">no_reply@example.com</a> <br>[m
+[32m+[m[32m    </p>[m[41m [m
+[32m+[m
+[32m+[m[32m    <time class="sender-column" datetime="2016-01-20">20 January 2016</time>[m
+[32m+[m[32m  </address>[m
+[32m+[m[32m  <p class="sender-column"><time datetime="2016-01-20">20 January 2016</time></p>[m
+[32m+[m
+[32m+[m[32m  <address>[m
+[32m+[m[32m    <p>[m
+[32m+[m[32m      <strong>Miss Eileen Dover</p>strong> <br>[m
+[32m+[m[32m      4321 Cliff Top Edge <br>[m
+[32m+[m[32m      Dover, CT9 XXX <br>[m
+[32m+[m[32m      UK[m[41m [m
+[32m+[m[32m    </p>[m
+[32m+[m[32m  </address>[m
+[32m+[m[41m    [m
+[32m+[m[32m  <h1>Re: Eileen Dover university application</h1>[m
+[32m+[m[41m    [m
+[32m+[m[32m  <p>Dear Eileen,</p>[m
+[32m+[m[41m    [m
+[32m+[m[32m  <p>Thank you for your recent application to join us at the University of Awesome's science faculty to study as part of your <abbr title="Post-doctorate Degree">PhD</abbr> next year. I will answer your questions one by one, in the following sections.</p>[m[41m [m
+[32m+[m[41m    [m
+[32m+[m[32m  <h2>Starting dates</h2>[m
+[32m+[m[41m    [m
+[32m+[m[32m  <p>[m
+[32m+[m[32m    We are happy to accommodate you starting your study with us at any time, however it would suit us better if you could start at the beginning of a semester; the start dates for each one are as follows:[m
+[32m+[m[41m    [m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m      <li>First semester: 9 September 2016<time datetime="2016-01-20">9 September 2016</time></li>[m
+[32m+[m[32m      <li>Second semester: 15 January 2017<time datetime="2016-01-20">15 January 2017</time></li>[m
+[32m+[m[32m      <li>Third semester: 2 May 2017<time datetime="2016-01-20">2 May 2017</time></li>[m
+[32m+[m[32m    </ul>[m
+[32m+[m[41m    [m
+[32m+[m[32m    Please let me know if this is ok, and if so which start date you would prefer.[m
+[32m+[m[32m  </p>[m
+[32m+[m[41m    [m
+[32m+[m[32m  <p>[m
+[32m+[m[32m    You can find more information about <a href="#">important university dates</a> on our website.[m
+[32m+[m[32m  </p>[m[41m [m
+[32m+[m[41m    [m
+[32m+[m[32m  <h2>Subjects of study</h2>[m[41m [m
+[32m+[m[41m    [m
+[32m+[m[32m  <p>[m
+[32m+[m[32m    At the Awesome Science Faculty, we have a pretty open-minded research facility — as long as the subjects fall somewhere in the realm of science and technology. You seem like an intelligent, dedicated researcher, and just the kind of person we'd like to have on our team. Saying that, of the ideas you submitted we were most intrigued by are as follows, in order of priority:[m
+[32m+[m[41m    [m
+[32m+[m[32m    <ol>[m
+[32m+[m[32m      <li>Turning H<sub>2</sub>O into wine, and the health benefits of Resveratrol (C<sub>14</sub>H<sub>12</sub>O<sub>3</sub>.)</li>[m
+[32m+[m[32m      <li>Measuring the effect on performance of funk bassplayers at temperatures exceeding 30°C (86°F), when the audience size exponentially increases (effect of 3 × 10<sup>3</sup> increasing to 3 × 10<sup>4</sup>.)</li>[m
+[32m+[m[32m      <li><abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheet">CSS</abbr> constructs for representing musical scores.</li>[m
+[32m+[m[32m    </ol>[m
+[32m+[m[41m    [m
+[32m+[m[32m    So please can you provide more information on each of these subjects, including how long you'd expect the research to take, required staff and other resources, and anything else you think we'd need to know? Thanks.[m
+[32m+[m[32m  </p>[m
+[32m+[m[41m    [m
+[32m+[m[32m  <h2>Exotic dance moves</h2>[m
+[32m+[m[41m  [m
+[32m+[m[32m  <p>[m
+[32m+[m[32m    Yes, you are right! As part of my post-doctorate work, I <em>did</em> study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:[m
+[32m+[m[41m    [m
+[32m+[m[32m    <dl>[m
+[32m+[m[32m      <dt>Polynesian chicken dance</dt>[m[41m [m
+[32m+[m[32m      <dd>[m
+[32m+[m[32m        A little known but very influential dance dating back as far as 300<abbr title="Before Christ">BC</abbr>, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".[m
+[32m+[m[32m      </dd>[m[41m  [m
+[32m+[m[41m      [m
+[32m+[m[32m      <dt>Icelandic brownian shuffle</dt>[m
+[32m+[m[32m      <dd>[m
+[32m+[m[32m        Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.[m
+[32m+[m[32m      </dd>[m
+[32m+[m[41m    [m
+[32m+[m[32m      <dt>Arctic robot dance</dt>[m
+[32m+[m[32m      <dd>[m
+[32m+[m[32m        An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.[m
+[32m+[m[32m      </dd>[m
+[32m+[m[32m    </dl>[m
+[32m+[m
+[32m+[m[32m  </p>[m
+[32m+[m[41m   [m
+[32m+[m[32m  <p>[m
+[32m+[m[32m    For more of my research, see my <a href="#">exotic dance research page</a>.[m
+[32m+[m[32m  </p>[m
+[32m+[m[41m    [m
+[32m+[m[32m  <p>[m
+[32m+[m[32m    Yours sincerely, <br><br>[m
+[32m+[m[32m    Dr Eleanor Gaye[m
+[32m+[m[32m  </p>[m
+[32m+[m
+[32m+[m[32m  <p>University of Awesome motto: <q>Be awesome to each other.</q> <cite>--The memoirs of Bill S Preston, Esq</cite></a>.</p>[m[41m [m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/style.css b/style.css[m
+[1mindex e69de29..7f27aeb 100644[m
+[1m--- a/style.css[m
+[1m+++ b/style.css[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m[32mbody {[m
+[32m+[m[32m  max-width: 800px;[m
+[32m+[m[32m  margin: 0 auto;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32m.sender-column {[m
+[32m+[m[32m  text-align: right;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mh1 {[m
+[32m+[m[32m  font-size: 1.5em;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mh2 {[m
+[32m+[m[32m  font-size: 1.3em;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mp,ul,ol,dl,address {[m
+[32m+[m[32m  font-size: 1.1em;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mp, li, dd, dt, address {[m
+[32m+[m[32m  line-height: 1.5;[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
